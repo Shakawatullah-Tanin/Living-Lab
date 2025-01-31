@@ -9,13 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- <script src="https://unpkg.com/@tailwindcss/browser@4"></script> -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <section class="nav-section">
-        <nav class="nav-container">
-            <img class="nav-logo" src="c2-assets/logo-header.png" alt="">
-            <ul>
+    <section class="">
+        <nav class="flex justify-between m-20 mt-2">
+            <img class="w-1/12" src="c2-assets/logo-header.png" alt="">
+            <ul class="flex gap-20">
                 <li><a href="#"></a>Product</li>
                 <li><a href="#"></a>Services</li>
                 <li><a href="#"></a>Contact us</li>
@@ -23,16 +23,17 @@
             <div class="iogin-bttn">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <i class="fa-sharp-duotone fa-solid fa-cart-shopping"></i>
-                <button id="login">Login</button>
-                <button id="Register">Register</button>
+                <button class="text-center border-1 border-green-600 w-20 rounded-lg mr-4 ml-8 h-8">Login</button>
+                <button class="text-center bg-green-500 w-30 rounded-lg text-white h-8">Register</button>
             </div>
         </nav>
     </section>
     <section>
-        <div class="banner-container">
+        <div class="grid grid-rows-1 justify-center">
             <div>
-                <h1>Freshness <span class="heading">You Can Count</span> On,<br>Prices You’ll Love!</h1>
-                <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>staples, we’ve got you covered every day!</p>
+                <h1 class="text-4xl text-center font-semibold">Freshness <span class="text-green-500">You Can <br> Count</span> On,Prices You’ll Love!</h1>
+                <br>
+                <p class="text-center">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>staples, we’ve got you covered every day!</p>
             </div>
             <div>
                 <img src="c2-assets/hero-vegetables.png" alt="">
@@ -40,9 +41,9 @@
         </div>
     </section>
     <section>
-        <div class="service-card-container">
+        <div class="m-20">
             <div>
-                <h2>Services</h2>
+                <h2 class="text-green-600 text-2xl font-semibold">Services</h2>
             </div>
             <div class="card-container">
                 <div class="card">
